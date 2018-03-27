@@ -1,5 +1,5 @@
 (function(window){
-
+ 
     function random(min, max) {
         return min + Math.floor(Math.random() * (max - min + 1));
     }
@@ -168,7 +168,7 @@
 
             ctx.moveTo(0, 0);
             ctx.scale(0.75, 0.75);
-            ctx.font = "12px 寰蒋闆呴粦,Verdana"; // 瀛�?彿鑲夸箞娌℃湁鐢�?? (�?(�?��)�?)
+            ctx.font = "12px å¯°î†¿è’‹é—†å‘´ç²¦,Verdana"; // ç€›æ?å½¿é‘²å¤¸ç®žå¨Œâ„ƒæ¹é¢ï¿?? (è—?(éˆ?¿½)è—?)
             ctx.fillText("click here", 23, 16);
             ctx.restore();
         },
